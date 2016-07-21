@@ -3,4 +3,4 @@ FoodService was developed as an Android application to be used in the Federal Un
 
 User manual only available in the Portuguese language.
 
-IMPORTANT NOTE: This application was never deployed into large scale environments nor used in real scenarios.
+IMPORTANT NOTE: This application was never deployed into large scale environments nor used in real scenarios with real currency.
