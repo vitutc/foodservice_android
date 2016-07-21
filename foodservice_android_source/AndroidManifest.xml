@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="br.com.leomarvic" android:versionCode="1" android:versionName="1.0">
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-sdk android:minSdkVersion="7" />
+
+	<application 
+	android:icon="@drawable/icon" 
+	android:label="@string/app_name"
+	android:theme="@style/ThemeGlass">
+	
+		<activity 
+		android:name=".FoodService" 
+		android:label="FoodService"
+		android:noHistory="false">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity 
+		android:name=".StartScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.STARTSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity 
+		android:name=".AboutScreen" 
+		android:label="FoodService"
+		android:theme="@android:style/Theme.Dialog">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.ABOUTSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity 
+		android:name=".DownloadDialog" 
+		android:label="FoodService"
+		android:theme="@android:style/Theme.Dialog">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.DOWNLOADDIALOG" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity 
+		android:name=".RestaurantListScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.RESTLISTSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+	
+		<activity 
+		android:name=".ManageAccount" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.MANAGEACCOUNT" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity 
+		android:name="RestaurantMainScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.RESTMAINSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+		android:name=".RestMainInfoScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.RESTMAININFOSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+		android:name=".RestMainPicsScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.RESTPICSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+		android:name=".RestMainCategoryListScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.RESTCATEGORYLISTSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity
+		android:name=".ItemListScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.ITEMLISTSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity
+		android:name=".BuyItemScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.BUYITEMSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+						
+		<activity
+		android:name=".RestMainMenuScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.RESTMAINMENUSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+		android:name=".CheckoutScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.CHECKOUTSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+		android:name=".ItemScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.ITEMSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+		android:name=".PicDisplayScreen" 
+		android:label="FoodService">
+			<intent-filter>
+				<action android:name="br.com.leomarvic.PICDISPLAYSCREEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+	</application>
+</manifest>

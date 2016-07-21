@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/degrade5"
+    android:orientation="vertical" >
+
+   	<Button 
+   	android:layout_width="fill_parent"
+   	android:textSize="20dp" 
+   	android:id="@+id/BtRegister" 
+   	android:text="@string/Bt1Register" android:layout_height="0px" android:layout_weight="15" style="@style/ButtonGlass">
+   	</Button>
+
+   	<TextView
+   	    android:id="@+id/textViewLoggedUser"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_gravity="center"
+   	    android:ems="10"
+   	    android:text="@string/txt1register"
+   	    android:textSize="30dp">
+   	</TextView>
+
+   	<TextView 
+   	android:text="@string/txt1login"
+   	android:layout_weight="10"
+   	android:textSize="30dp"
+   	android:gravity="center"
+   	android:id="@+id/txtlogin" 
+   	android:layout_width="fill_parent" android:layout_height="0px">
+   	</TextView>
+   	<EditText 
+   	android:text="@string/Ed1User"
+   	android:textSize="20dp"
+   	android:id="@+id/EdUser"
+   	android:layout_width="fill_parent" android:layout_height="0px" android:layout_weight="15">
+   	</EditText>
+   	<EditText 
+   	android:text="@string/Ed1Password"
+   	android:textSize="20dp"
+   	android:id="@+id/EdPassword"
+   	android:layout_width="fill_parent"
+   	android:layout_height="0px" android:layout_weight="15">
+   	</EditText>
+
+   	<Button
+   	    android:id="@+id/BtLogin"
+   	    style="@style/ButtonGlass"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0px"
+   	    android:layout_weight="15"
+   	    android:text="@string/Bt1Login"
+   	    android:textSize="20dp" />
+
+   	<Button
+   	    android:id="@+id/BtForgot"
+   	    style="@style/ButtonGlass"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0px"
+   	    android:layout_weight="15"
+   	    android:text="@string/Bt1Forgot"
+   	    android:textSize="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<RestaurantList>
+   <Restaurant>
+       <Name>Burguesao</Name>
+       <Address>Bloco H</Address>
+       <Logo>burguesao_logo.jpg</Logo>
+       <Description>Favorito dos Professores</Description>
+       <Images>
+           <Image>
+               <Description>Imagem frontal</Description>
+               <ID>burguesao_frontal.jpg</ID>
+           </Image>
+           <Image>
+           	<Description>Imagem lateral</Description>
+           	<ID>burguesao_lateral.jpg</ID></Image>
+           <Image>
+           	<Description>Imagem qualquer</Description>
+           	<ID>churrasco.jpg</ID></Image>
+       </Images>
+    <Categories>
+        <Category>
+            <Name>Entradas</Name>
+            <Itens>
+       <Item>
+               <Name>Churrasquin</Name>
+               <Description>De gato</Description>
+               <Price>8000</Price>
+               <Image>
+                   <ID>churrasco.jpg</ID>
+		   <Description>None</Description>
+               </Image>     
+       </Item>
+       <Item>
+               <Name>Batata</Name>
+               <Description>Frita</Description>
+               <Price>2.99</Price>
+               <Image>
+                   <ID>batata_frita.jpg</ID>
+		   <Description>None</Description>
+               </Image>     
+       </Item>
+    </Itens>
+    </Category>
+        <Category>
+            <Name>Bebidas</Name>
+            <Itens>
+       <Item>
+               <Name>Guarana</Name>
+               <Description>Natural</Description>
+               <Price>1.00</Price>
+               <Image>
+                   <ID>guarana.jpg</ID>
+		   <Description>None</Description>
+               </Image>     
+       </Item>
+       <Item>
+               <Name>Tropical</Name>
+               <Description>Misterioso</Description>
+               <Price>0.00</Price>
+               <Image>
+                   <ID>tropical.jpg</ID>
+		   <Description>None</Description>
+               </Image>     
+       </Item>
+    </Itens>
+    </Category>
+    </Categories>
+   </Restaurant>
+   <Restaurant>
+   	<Name>Manjuba</Name>
+   	<Logo>manjuba_logo.jpg</Logo></Restaurant>
+</RestaurantList>

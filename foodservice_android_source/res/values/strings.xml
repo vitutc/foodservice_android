@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">FoodService</string>
+	<string name="Bt1About">Sobre</string>
+	<string name="Bt1Help">Ajuda</string>
+	<string name="Bt1Language">Língua</string>
+	<string name="Bt1SelectRest">Selecionar Estabelecimento</string>
+	<string name="Bt1ManAcc">Gerenciar Conta</string>
+	<string name="TxAbout">Esse aplicativo foi produzido por:\nMarcello Salomão \nVictor Torres \n\nCopyright 2011
+		LEOMARVIC. Todos os direitos reservados.\n</string>
+	<string name="txt1register">Você é novo aqui ?</string>
+    <string name="Bt1Register">Registro</string>
+    <string name="txt1login">Login</string>
+    <string name="Ed1User">Usuário</string>
+    <string name="Ed1Password">Senha</string>
+    <string name="Bt1Login">Entrar</string>
+    <string name="Bt1Forgot">Recuperar senha</string>
+    <string name="Bt1RestStore">Restaurante</string>
+    <string name="Bt1Dish">Pratos</string>
+    <string name="Bt1Drink">Bebidas</string>
+    <string name="BtInfoToPictures">Ver fotos do local</string>
+</resources>

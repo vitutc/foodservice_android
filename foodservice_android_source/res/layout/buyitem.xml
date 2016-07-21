@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewBuyItemName"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:text="Item Name"
+        android:textSize="30dp" android:layout_marginBottom="5px"/>
+
+   	<ImageView
+   	    android:id="@+id/imageBuyItem"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0px"
+   	    android:scaleType="fitCenter"
+   	    android:src="@drawable/icon" android:layout_weight="45" android:layout_marginBottom="5px" android:layout_marginTop="5px"/>
+
+   	<TextView
+   	    android:id="@+id/textViewBuyItemPrice"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0px"
+   	    android:layout_weight="10"
+   	    android:gravity="center"
+   	    android:text="Item Price"
+   	    android:textSize="30dp" android:layout_marginTop="5px" android:layout_marginBottom="5px"/>
+
+   	<TextView
+   	    android:id="@+id/textViewBuyItemDesc"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0px"
+   	    android:layout_weight="10"
+   	    android:gravity="center"
+   	    android:text="Item Description"
+   	    android:textSize="25dp" android:layout_marginTop="5px" android:layout_marginBottom="5px"/>
+
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+   	    android:layout_height="0px" android:layout_weight="15">
+
+   		<TextView
+   		    android:id="@+id/tvCurrentBalance"
+   		    android:layout_width="0px"
+   		    android:layout_height="fill_parent"
+   		    android:layout_weight="10"
+   		    android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="center" android:text="Saldo: " android:gravity="center"/>
+
+   		<Button
+   		    android:id="@+id/btRefresh"
+   		    android:layout_width="0px"
+   		    android:layout_height="fill_parent"
+   		    android:layout_weight="4"
+   		    android:text="Refresh" android:layout_margin="6px"/>
+
+   	</LinearLayout>
+
+   	<Button
+   	    android:id="@+id/btBuyItem"
+   	    style="@style/ButtonGlass"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0px"
+   	    android:layout_weight="12"
+   	    android:text="Comprar"
+   	    android:textSize="20dp" />
+
+</LinearLayout>

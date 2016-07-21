@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:orientation="horizontal"
+  	android:layout_height="0px" android:layout_weight="13">
+  	<Button 
+  	android:layout_weight="50"
+  	android:text="Informações" android:layout_height="fill_parent" android:layout_width="0px" style="@style/ButtonGlass" android:id="@+id/BtRestMainInfo">
+  	</Button>
+  	<Button 
+  	android:layout_weight="50"
+	  android:text="Fotos do local" android:layout_width="0px" android:layout_height="fill_parent" style="@style/ButtonGlass" android:id="@+id/BtRestMainPics">
+  	</Button>
+  </LinearLayout>
+  <ImageView android:id="@+id/imageView1" android:layout_width="fill_parent" android:layout_height="0px" android:layout_weight="30"></ImageView>
+  <Button android:layout_height="0px" android:text="Promoções" android:layout_width="fill_parent" style="@style/ButtonGlass" android:layout_weight="13" android:id="@+id/BtRestMainPromo"></Button>
+  <Button 
+  android:layout_width="fill_parent"
+  android:text="Dica do chef" android:layout_height="0px" style="@style/ButtonGlass" android:layout_weight="13" android:id="@+id/BtRestMainChef">
+  </Button>
+  <Button 
+  android:layout_width="fill_parent"
+  android:text="Cardápio completo" android:layout_height="0px" android:layout_weight="25" style="@style/ButtonGlass" android:textSize="25dp" android:id="@+id/BtRestMainCompleteMenu">
+  </Button>
+  <ImageView android:layout_height="0px" android:layout_width="fill_parent" android:layout_weight="3"></ImageView>
+  <Button 
+  android:layout_width="fill_parent"
+  android:text="Meu pedido" android:layout_height="0px" android:layout_weight="10" style="@style/ButtonGlass" android:id="@+id/BtRestMainViewOrder">
+  </Button>
+</LinearLayout>
